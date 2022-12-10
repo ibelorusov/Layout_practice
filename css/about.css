@@ -31,6 +31,7 @@ text-shadow: 0.3px 0 0 currentColor;
  display: flex;
  flex-wrap: wrap;
  justify-content: space-around;
+ margin-top: 80px;
 }
 
 .about-advances-item {

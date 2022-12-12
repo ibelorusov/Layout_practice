@@ -38,6 +38,7 @@ header {
 .header-btn {
 display: flex;
 justify-content: space-around;
+margin-left: 80px;
 }
 
 button {

@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F2F2;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title-section {
+    color: #2F2F51;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.about-navigation {
+    display:inline;
+}

@@ -1,0 +1,98 @@
+.main {
+  background:url(../picture/main/main-avatar.jpg);
+  padding: 70px 0 65px 0;
+  background-size: cover;
+  margin-top: 97px;
+}
+.main-wrapper {
+  display: flex;
+}
+.main-access {
+  width: 574px;
+}
+.main-title__orange {
+  display: flex;
+  color: #EF7F04;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+}
+  
+.main-title__white {
+  font-weight: 100;
+  font-size: 36px;
+  color: white;
+  margin: 0;
+}
+
+.main__advantes {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  
+}
+
+
+.main__advantes-item {
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: auto;
+ 
+}
+.item__description {
+  width: 176px;
+  font-weight: 300;
+  font-size: 14px;
+  
+}
+.main-measurer {
+  width: 574px;
+  justify-self: start;
+  
+}
+
+.form {
+  width: 406px;
+  background-color: #FFFFFF;
+  padding: 45px 40px 80px 40px ;
+  border-radius: 10px;
+  position: relative;
+  
+}
+.form__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: #2F2F51;
+  margin-bottom: 27px;
+}
+.form__input {
+  display:block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px 16px;
+  border-radius: 3px;
+  background-color: #E2E2E2;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 35px;
+} 
+.form__submit {
+  display: block;
+  margin: 0 auto; 
+}
+.form__img {
+  position: absolute;
+  right: -135px;
+}
+.main__advantes-item {
+display: flex;
+justify-content:center;
+}

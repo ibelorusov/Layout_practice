@@ -6,6 +6,14 @@
 }
 .main-wrapper {
   display: flex;
+  justify-content:center;
+
+}
+.main-access {
+  margin-top: 80px;
+}
+
+.main-title {
 }
 .main-access {
   width: 574px;
@@ -15,6 +23,18 @@
   color: #EF7F04;
   font-weight: 700;
   font-size: 24px;
+}
+h1 {
+  font-weight: 100;
+  font-size: 36px;
+  color: white;
+}
+p {
+  margin: 0px;
+}
+  
+.main__advantes {
+  display: flex;
   margin: 0;
 }
   
@@ -29,7 +49,6 @@
   display: flex;
   justify-content: center;
   margin: 40px;
-  
 }
 
 
@@ -48,6 +67,7 @@
   
 }
 .main-measurer {
+  margin-left: 100px;
   width: 574px;
   justify-self: start;
   
@@ -95,4 +115,46 @@
 .main__advantes-item {
 display: flex;
 justify-content:center;
+}
+@media  screen and (max-width: 992px) {
+  .main {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+    height: 562px;
+  }
+ .main-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 992px;
+  margin: 0 auto;
+}
+ .main-access {
+  align-items: center;
+  max-width: 992px;
+  margin-top: 40px;
+ }
+ .main-measurer {
+  display: none;
+}
+.main-title {
+  display: flex;
+  color: #EF7F04;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+  .item__description {
+    padding-top: 20px;
+  }
+
+.main__advantes {
+  display:flex;
+  
+}
+.about-advances {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 68px 40px 0px 40px;
 }

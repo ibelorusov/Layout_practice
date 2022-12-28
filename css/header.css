@@ -7,9 +7,23 @@ header {
     z-index: 10;
 
 }
+.burger {
+    display:none;
+    margin: 44px;
+}
+.burger__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+.burger-logo {
+    display: none;
+}
 .header-nav {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .header-navigation {
     display:flex;
@@ -70,3 +84,35 @@ button > svg {
 .btn-2 {
     background-color: #3B3A63;
 }
+
+@media screen and (max-width: 992px) {
+    .header {
+        max-width: 992px;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+    }
+    .header-navigation {
+        display: none;
+    }
+    .burger {
+        display: initial;
+        position: absolute;
+        left: 20px;
+        opacity: 0;
+        width: 56px;
+        height: 35px;
+    }
+    .burger-logo {
+        display: initial;
+        margin: 30px 20px;
+    }
+    .header-btn {
+        margin-right: 55px;
+    }
+    
+}
+
+
+    
+

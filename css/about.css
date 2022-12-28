@@ -80,3 +80,38 @@ width: 198px;
 h3 {
 margin: 0;
 }
+@media screen and (max-width:992px) {
+    .about-nav-list {
+        display:flex;
+        max-width: 992px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .about-inner {
+        background-color: #fff;
+    }
+.about-text p {
+    padding-right: 52px;
+    padding-left: 104px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400px;
+    margin-top: 61px;
+    width: 277px;
+    height: 214px;
+    width: 100%;
+    background-color: #fff;
+}
+.about-img {
+    width: 447px;
+    height: 500px;
+}
+.about-advances {
+display: flex;
+flex-wrap: nowrap;
+margin: 68px 40px 0 40px;
+
+}
+}
+

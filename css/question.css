@@ -59,7 +59,19 @@ summary:hover {
 .question-block {
   padding: 40px 40px 63px 40px;
 }
-
-  
-
-
+.question {
+  background-color: #EF7F1A;
+  padding: 100px 46px 60px 100px
+}
+.question__title {
+  color: white;
+  margin-bottom: 50px;
+}
+.question__item {
+  background-color: #EEEEF3;
+  padding: 30px 19px;
+}
+.question__item-title {
+  list-style: none;
+}
+}

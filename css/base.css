@@ -1,4 +1,5 @@
 * {
+
     box-sizing: border-box;
 }
 body {
@@ -9,6 +10,10 @@ body {
 .container {
     width: 100%;
     max-width: 1211px;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .title-section {
@@ -19,9 +24,12 @@ body {
     margin-top: 50px;
     margin-bottom: 40px;
 }
+
 @media screen and (max-width: 1211px) {
     .container {
         width: 100%;
     }
      
+.about-navigation {
+    display:inline;
 }

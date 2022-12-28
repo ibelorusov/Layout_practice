@@ -5,6 +5,7 @@ header {
     top: 0;
     position: fixed;
     z-index: 10;
+
 }
 .burger {
     display:none;
@@ -83,6 +84,7 @@ button > svg {
 .btn-2 {
     background-color: #3B3A63;
 }
+
 @media screen and (max-width: 992px) {
     .header {
         max-width: 992px;
@@ -113,3 +115,4 @@ button > svg {
 
 
     
+

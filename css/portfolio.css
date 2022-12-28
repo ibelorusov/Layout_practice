@@ -1,0 +1,42 @@
+.portfolio {
+background-color: white;
+padding: 20px 0px 70px 0px;
+margin: 70px 20px;
+}
+.title-section {
+font-family: 'Roboto', sans-serif;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+color:#2F2F51;
+}
+
+.portfolio__list {
+display:flex;
+justify-content: center;
+gap: 0px 45px;
+}
+@media screen and (max-width:992px) {
+    .portfofio { 
+    display: flex;
+    flex-wrap:wrap;
+    height: 410px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.portfolio__list {
+    display: flex;
+    width: 100%;
+    margin-bottom: 41px;
+    margin-left: 10px;
+    
+}
+
+.port-4 {
+    display: none;
+}
+
+}
